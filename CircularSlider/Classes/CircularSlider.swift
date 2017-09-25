@@ -25,8 +25,8 @@ open class CircularSlider: UIView {
     @IBOutlet fileprivate weak var iconImageView: UIImageView!
     @IBOutlet fileprivate weak var iconCenterY: NSLayoutConstraint!
     @IBOutlet fileprivate weak var centeredView: UIView!
-    @IBOutlet fileprivate weak var titleLabel: UILabel!
-    @IBOutlet fileprivate weak var textfield: UITextField! {
+    @IBOutlet open weak var titleLabel: UILabel!
+    @IBOutlet open weak var textfield: UITextField! {
         didSet {
             addDoneButtonOnKeyboard()
         }
