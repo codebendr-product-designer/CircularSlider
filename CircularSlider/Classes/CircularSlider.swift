@@ -375,7 +375,7 @@ open class CircularSlider: UIView {
     }
     
     fileprivate func updateLabels() {
-        updateValueLabel()
+       // updateValueLabel()
     }
     
     fileprivate func updateValueLabel() {
